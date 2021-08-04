@@ -1,0 +1,25 @@
+
+{
+    "UserIsShowTrustor" : true,
+    "PropertyNo" : "MCA023",
+    "BuildingTagInfos" : ["獨家","一手新盤"],
+    "SSDType" : 0,
+    "EstimatedDate" : "2005-01-25T00:00:00",
+    "PropertyStatusCategory" : 2,
+    "PropertyFastSearcherTags": [
+        {
+            "ItemText": "獨家",
+            "ItemValue": "{\"IsOnlyTrust\":1}",
+            "IsDelete": false,
+            "PropertyType": 0,
+            "Seq": 1
+        },
+        {
+            "ItemText": "一手新盤",
+            "ItemValue": "{\"HasDevelopmentEndCredits\":1}",
+            "IsDelete": false,
+            "PropertyType": 0,
+            "Seq": 2
+        }
+    ]
+}
