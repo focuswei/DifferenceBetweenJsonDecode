@@ -16,8 +16,6 @@
 		44C4045C23162A7600DF5D25 /* DifferenceBetweenJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4045B23162A7600DF5D25 /* DifferenceBetweenJSONTests.swift */; };
 		44C404E923162D6800DF5D25 /* APHouseDetailInfo_HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C404E723162D6800DF5D25 /* APHouseDetailInfo_HandyJSON.swift */; };
 		44C404EA23162D6800DF5D25 /* APHouseDetailInfo_SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C404E823162D6800DF5D25 /* APHouseDetailInfo_SwiftyJSON.swift */; };
-		44C404FC2316312F00DF5D25 /* APConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C404F72316312F00DF5D25 /* APConfiguration.swift */; };
-		44C404FD2316312F00DF5D25 /* UserDefaultsSettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C404F82316312F00DF5D25 /* UserDefaultsSettable.swift */; };
 		44C4050123165BF000DF5D25 /* APPropertyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4050023165BF000DF5D25 /* APPropertyEnum.swift */; };
 		44EB90D526B92C860044828B /* APSampleSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44EB90D426B92C860044828B /* APSampleSource.bundle */; };
 		44EB90D826B92CC60044828B /* APLocalSampleDataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB90D726B92CC60044828B /* APLocalSampleDataHandle.swift */; };
@@ -49,8 +47,6 @@
 		44C4045D23162A7600DF5D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C404E723162D6800DF5D25 /* APHouseDetailInfo_HandyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APHouseDetailInfo_HandyJSON.swift; sourceTree = "<group>"; };
 		44C404E823162D6800DF5D25 /* APHouseDetailInfo_SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APHouseDetailInfo_SwiftyJSON.swift; sourceTree = "<group>"; };
-		44C404F72316312F00DF5D25 /* APConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APConfiguration.swift; sourceTree = "<group>"; };
-		44C404F82316312F00DF5D25 /* UserDefaultsSettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsSettable.swift; sourceTree = "<group>"; };
 		44C4050023165BF000DF5D25 /* APPropertyEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPropertyEnum.swift; sourceTree = "<group>"; };
 		44EB90D426B92C860044828B /* APSampleSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APSampleSource.bundle; sourceTree = "<group>"; };
 		44EB90D726B92CC60044828B /* APLocalSampleDataHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APLocalSampleDataHandle.swift; sourceTree = "<group>"; };
@@ -104,7 +100,6 @@
 			children = (
 				44EB90D626B92CB60044828B /* Utils */,
 				44EB90D426B92C860044828B /* APSampleSource.bundle */,
-				44C404F52316312F00DF5D25 /* Config */,
 				44C404EB23162D6B00DF5D25 /* Model */,
 				44C4044623162A7200DF5D25 /* AppDelegate.swift */,
 				44C4044823162A7200DF5D25 /* ViewController.swift */,
@@ -143,15 +138,6 @@
 				44C4050023165BF000DF5D25 /* APPropertyEnum.swift */,
 			);
 			path = Enum;
-			sourceTree = "<group>";
-		};
-		44C404F52316312F00DF5D25 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				44C404F72316312F00DF5D25 /* APConfiguration.swift */,
-				44C404F82316312F00DF5D25 /* UserDefaultsSettable.swift */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		44EB90D626B92CB60044828B /* Utils */ = {
@@ -325,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C404FD2316312F00DF5D25 /* UserDefaultsSettable.swift in Sources */,
 				44C4044923162A7200DF5D25 /* ViewController.swift in Sources */,
 				4435052C24A1F67D00586703 /* APHouseDetailInfo_ObjectMapper.swift in Sources */,
 				44C404E923162D6800DF5D25 /* APHouseDetailInfo_HandyJSON.swift in Sources */,
@@ -334,7 +319,6 @@
 				44C404EA23162D6800DF5D25 /* APHouseDetailInfo_SwiftyJSON.swift in Sources */,
 				44C4050123165BF000DF5D25 /* APPropertyEnum.swift in Sources */,
 				44EB90D826B92CC60044828B /* APLocalSampleDataHandle.swift in Sources */,
-				44C404FC2316312F00DF5D25 /* APConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

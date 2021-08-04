@@ -4,9 +4,9 @@ import HandyJSON    // 属性名必须和 数据的键值对匹配
 
 struct APHouseDetailStruct: HandyJSON {
     
-    var UserIsShowTrustor: Bool = false     // 是否顯示業主信息 (Boolean)
-    var PropertyNo: String?                 // 樓盤編號
-    var SSDType: APPropertySSDType = .unkown // SSD類型0:未知，1：0%，2：10%，3：15%，4：20%
+    var UserIsShowTrustor: Bool = false     
+    var PropertyNo: String?                 
+    var SSDType: APPropertySSDType = .unkown 
     var EstimatedDate: Date?
     var BuildingTagInfos: [String]?
     var PropertyStatusCategory: APPropertyStatusCategory? // 房源狀態四大分類枚舉：1-有效，2-暫緩，3-預定，4-無效
@@ -38,9 +38,9 @@ extension APHouseDetailStruct {
 
 
 class APPropertyDetailInfoByHandy: HandyJSON {
-    var UserIsShowTrustor: Bool = false     // 是否顯示業主信息 (Boolean)
-    var PropertyNo: String?                 // 樓盤編號
-    var SSDType: APPropertySSDType = .unkown // SSD類型0:未知，1：0%，2：10%，3：15%，4：20%
+    var UserIsShowTrustor: Bool = false     
+    var PropertyNo: String?                 
+    var SSDType: APPropertySSDType = .unkown 
     var EstimatedDate: Date?
     var BuildingTagInfos: [String]?
     var PropertyStatusCategory: APPropertyStatusCategory? // 房源狀態四大分類枚舉：1-有效，2-暫緩，3-預定，4-無效
