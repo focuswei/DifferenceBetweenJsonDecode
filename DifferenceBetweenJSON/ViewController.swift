@@ -13,6 +13,8 @@ import SwiftyJSON
 import HandyJSON
 import CommonCrypto
 import ObjectMapper
+import DemoLibraryTool  
+import SVProgressHUD
 
 class ViewController: UIViewController {
     
@@ -64,8 +66,18 @@ class ViewController: UIViewController {
                 print(error)
             }
         }
+        
+        let button = UIButton.init(frame: CGRect(x: view.center.x, y: view.center.y, width: 100, height: 100))
+        button.backgroundColor = .blue
+        button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+        view.addSubview(button)
     }
     
+    @objc func buttonAction() {
+        SVProgressHUD.showSuccess(withStatus: "true")
+        let vc = LGTestOneController.init()
+        self.present(vc, animated: true, completion: nil)
+    }
     /// 返回 JSON 的实体类
     func fetchBySwiftJSON(_ completion: @escaping(_ json: JSON) -> Void) {
         if let sampleJSON = APLocalSampleDataHandle.jsonFormLocalData(resourceName: "APPropertyDetailsSample") {

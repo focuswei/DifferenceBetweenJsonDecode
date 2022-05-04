@@ -1,0 +1,11 @@
+framework module TZImagePicker {
+  umbrella header "TZImagePicker.h"
+
+  export *
+  module * { export * }
+}
+
+module TZImagePicker.Swift {
+    header "TZImagePicker-Swift.h"
+    requires objc
+}

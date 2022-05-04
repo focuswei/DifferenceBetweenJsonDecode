@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12BBEE67B5C58911502D8419 /* Pods_DifferenceBetweenJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9069AF1B68A426A447661E /* Pods_DifferenceBetweenJSON.framework */; };
 		4435052C24A1F67D00586703 /* APHouseDetailInfo_ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435052B24A1F67D00586703 /* APHouseDetailInfo_ObjectMapper.swift */; };
 		44C4044723162A7200DF5D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4044623162A7200DF5D25 /* AppDelegate.swift */; };
 		44C4044923162A7200DF5D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4044823162A7200DF5D25 /* ViewController.swift */; };
@@ -20,7 +21,10 @@
 		44EB90D526B92C860044828B /* APSampleSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44EB90D426B92C860044828B /* APSampleSource.bundle */; };
 		44EB90D826B92CC60044828B /* APLocalSampleDataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB90D726B92CC60044828B /* APLocalSampleDataHandle.swift */; };
 		44EB90DA26B9377F0044828B /* APHouseDetailInfo_codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB90D926B9377F0044828B /* APHouseDetailInfo_codable.swift */; };
-		A423701AEF488393883F282E /* Pods_DifferenceBetweenJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A4F5651A6897F1F0ABFCA2 /* Pods_DifferenceBetweenJSON.framework */; };
+		BE479EC3282224F20079BA12 /* TZImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE479EC2282224F20079BA12 /* TZImagePicker.framework */; platformFilter = ios; };
+		BE479EC4282224F20079BA12 /* TZImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE479EC2282224F20079BA12 /* TZImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE479EC928222CB20079BA12 /* DemoLibraryTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4F0C44281BE86E00733C12 /* DemoLibraryTool.framework */; platformFilter = ios; };
+		BE479ECA28222CB20079BA12 /* DemoLibraryTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE4F0C44281BE86E00733C12 /* DemoLibraryTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,21 @@
 			remoteInfo = DifferenceBetweenJSON;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE479EC1282224BA0079BA12 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE479EC4282224F20079BA12 /* TZImagePicker.framework in Embed Frameworks */,
+				BE479ECA28222CB20079BA12 /* DemoLibraryTool.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4435052B24A1F67D00586703 /* APHouseDetailInfo_ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APHouseDetailInfo_ObjectMapper.swift; sourceTree = "<group>"; };
@@ -52,7 +71,12 @@
 		44EB90D726B92CC60044828B /* APLocalSampleDataHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APLocalSampleDataHandle.swift; sourceTree = "<group>"; };
 		44EB90D926B9377F0044828B /* APHouseDetailInfo_codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APHouseDetailInfo_codable.swift; sourceTree = "<group>"; };
 		4E7CC6D6ADF8C81938DA9017 /* Pods-DifferenceBetweenJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceBetweenJSON.release.xcconfig"; path = "Target Support Files/Pods-DifferenceBetweenJSON/Pods-DifferenceBetweenJSON.release.xcconfig"; sourceTree = "<group>"; };
-		53A4F5651A6897F1F0ABFCA2 /* Pods_DifferenceBetweenJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifferenceBetweenJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9069AF1B68A426A447661E /* Pods_DifferenceBetweenJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifferenceBetweenJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE479EC2282224F20079BA12 /* TZImagePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TZImagePicker.framework; path = DifferenceBetweenJSON/TZImagePicker.framework; sourceTree = "<group>"; };
+		BE4F0AC3281BD06700733C12 /* libstaticLibraryDemo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstaticLibraryDemo.a; path = "../../../../Library/Developer/Xcode/DerivedData/staticLibraryDemo-culonomxmtpjojgylidsctikswky/Build/Products/Debug-iphoneos/libstaticLibraryDemo.a"; sourceTree = "<group>"; };
+		BE4F0B42281BD47700733C12 /* libstaticLibraryDemo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstaticLibraryDemo.a; path = DifferenceBetweenJSON/libstaticLibraryDemo.a; sourceTree = "<group>"; };
+		BE4F0B4B281BDE6500733C12 /* LGLibraryBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLibraryBridgeHeader.h; sourceTree = "<group>"; };
+		BE4F0C44281BE86E00733C12 /* DemoLibraryTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DemoLibraryTool.framework; path = DifferenceBetweenJSON/DemoLibraryTool.framework; sourceTree = "<group>"; };
 		D15EBFF8E0F122FA60AE0209 /* Pods-DifferenceBetweenJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifferenceBetweenJSON.debug.xcconfig"; path = "Target Support Files/Pods-DifferenceBetweenJSON/Pods-DifferenceBetweenJSON.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A423701AEF488393883F282E /* Pods_DifferenceBetweenJSON.framework in Frameworks */,
+				BE479EC3282224F20079BA12 /* TZImagePicker.framework in Frameworks */,
+				BE479EC928222CB20079BA12 /* DemoLibraryTool.framework in Frameworks */,
+				12BBEE67B5C58911502D8419 /* Pods_DifferenceBetweenJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +124,7 @@
 		44C4044523162A7200DF5D25 /* DifferenceBetweenJSON */ = {
 			isa = PBXGroup;
 			children = (
+				BE4F0B4B281BDE6500733C12 /* LGLibraryBridgeHeader.h */,
 				44EB90D626B92CB60044828B /* Utils */,
 				44EB90D426B92C860044828B /* APSampleSource.bundle */,
 				44C404EB23162D6B00DF5D25 /* Model */,
@@ -151,7 +178,11 @@
 		5B7446925CC7AB5CC3382FF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53A4F5651A6897F1F0ABFCA2 /* Pods_DifferenceBetweenJSON.framework */,
+				BE479EC2282224F20079BA12 /* TZImagePicker.framework */,
+				BE4F0C44281BE86E00733C12 /* DemoLibraryTool.framework */,
+				BE4F0AC3281BD06700733C12 /* libstaticLibraryDemo.a */,
+				BE4F0B42281BD47700733C12 /* libstaticLibraryDemo.a */,
+				9B9069AF1B68A426A447661E /* Pods_DifferenceBetweenJSON.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,7 +207,8 @@
 				44C4043F23162A7200DF5D25 /* Sources */,
 				44C4044023162A7200DF5D25 /* Frameworks */,
 				44C4044123162A7200DF5D25 /* Resources */,
-				DB5045FD643F23A2A5B4785F /* [CP] Embed Pods Frameworks */,
+				BE479EC1282224BA0079BA12 /* Embed Frameworks */,
+				CA15D27B419C9541A20AEB20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +297,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DB5045FD643F23A2A5B4785F /* [CP] Embed Pods Frameworks */ = {
+		CA15D27B419C9541A20AEB20 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,14 +515,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37M52ZQXNN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DifferenceBetweenJSON",
+				);
 				INFOPLIST_FILE = DifferenceBetweenJSON/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DifferenceBetweenJSON",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.centa.HandyJSON.play.DifferenceBetweenJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/DifferenceBetweenJSON/LGLibraryBridgeHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -503,14 +545,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37M52ZQXNN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DifferenceBetweenJSON",
+				);
 				INFOPLIST_FILE = DifferenceBetweenJSON/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DifferenceBetweenJSON",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.centa.HandyJSON.play.DifferenceBetweenJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/DifferenceBetweenJSON/LGLibraryBridgeHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

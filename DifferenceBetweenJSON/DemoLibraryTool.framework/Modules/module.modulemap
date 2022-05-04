@@ -1,0 +1,11 @@
+framework module DemoLibraryTool {
+  umbrella header "DemoLibraryTool.h"
+
+  export *
+  module * { export * }
+}
+
+module DemoLibraryTool.Swift {
+    header "DemoLibraryTool-Swift.h"
+    requires objc
+}

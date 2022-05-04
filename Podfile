@@ -6,4 +6,6 @@ target 'DifferenceBetweenJSON' do
     pod 'ObjectMapper'
     pod 'SwiftyJSON'
     pod 'HandyJSON'
+    pod 'SVProgressHUD', :modular_headers => true
+    pod 'CryptoSwift'
 end
